@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
 body {
     background-color: hsl(226, 43%, 10%);
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 main {
@@ -8,35 +14,149 @@ main {
     width: 100vw;
 }
 
-.round-edges {
-    border-radius: 17px;
+.container-fluid {
+    transform: translateY(50%);
 }
 
-.main-card-container {
+.round-edges {
+    border-radius: 15px;
 }
 
 .report-for {
     position: relative;
-    width: 240px;
-    height: 340px;
+    width: 13em;
+    height: 18em;
     background: hsl(246, 80%, 60%);
-    margin-bottom: -30px;
+    margin-bottom: -2em;
 }
 
-.time-setting {
-    width: 240px;
-    height: 200px;
+.report-for-img {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin: 2em 1em 2em 1em;
+}
+
+.report-for-text {
+    color: hsl(236, 100%, 87%);
+    font-size: 0.75em;
+    margin-left: 1.25em;
+}
+
+.report-for-name {
+    margin-left: 0.5em;
+    font-size: 1.75em;
+    margin-top: -0.5em;
+    line-height: 1.1em;
+}
+
+.report-details {
     background: hsl(235, 46%, 20%);
+    width: 12.5em;
+    min-height: 9.5em;
+    transform: translateY(-2em);
 }
 
 .reports-container {
-    width: 900px;
-    margin-left: 20px;
+    width: 43em;
+    margin-left: 0.75em;
 }
 
 .single-report {
-    margin: 0px 20px 0px 20px;
+    margin: 0em 0.75em 0em 0.75em;
+    width: 12.5em;
+    min-height: 13em;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: end;
+}
+
+.single-report-header {
+    display: flex;
+    text-align: start;
+    margin-left: 1.25em;
+    padding-top: 1em;
+}
+
+.single-report-header {
+    max-width: 2em;
+}
+
+.single-report-header p {
+    min-width: 0.75em;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.single-report-hours {
+    font-size: 2.5em;
+    text-align: start;
+    margin-left: 0.6em;
+    margin-bottom: 0em;
+}
+
+.single-report-timespan-footer-text {
+    color: hsl(236, 100%, 87%);
+    font-size: 0.75em;
+    text-align: start;
+    margin-left: 1.75em;
+}
+
+.report-card-ellipsis {
+    align-self: flex-end;
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-bottom: 1em;
+}
+
+.time-setting {
+    width: 13em;
+    height: 10em;
     background: hsl(235, 46%, 20%);
-    width: 250px;
-    height: 235px;
+}
+
+.timeframe-select {
+    color: hsl(236, 100%, 87%);
+    margin-top: 3.5em;
+    margin-left: 1em;
+    font-size: 16px;
+}
+
+img {
+    transform: translateY(-0.5em);
+}
+
+.img-background {
+    padding-right: 1em;
+    height: 4.5em;
+    overflow: hidden;
+}
+
+.work-background {
+    background: hsl(15, 100%, 70%);
+}
+
+.play-background {
+    background: hsl(195, 74%, 62%);
+}
+
+.study-background {
+    background: hsl(348, 100%, 68%);
+}
+
+.exercise-background {
+    background: hsl(145, 58%, 55%);
+}
+
+.img-exercise {
+    transform: translateY(0em);
+}
+
+.social-background {
+    background: hsl(264, 64%, 52%);
+}
+
+.self-care-background {
+    background: hsl(43, 84%, 65%);
 }

@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="index.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
@@ -15,36 +17,116 @@
     <div class="container-fluid d-flex flex-row justify-content-center">
       <div class="main-card-container p-2">
         <div class="report-for round-edges row">
-          Report for
+          <div class="col">
+            <img class="report-for-img" src="./images/image-jeremy.png">
+            <p class="report-for-text">Report for</p>
+            <p class="report-for-name">Jeremy Robson</p>
+          </div>
         </div>
         <div class="time-setting round-edges row">
-          Time setting
+          <div class="timeframe-select">
+            <p>Daily</p>
+            <p>Weekly</p>
+            <p>Monthly</p>
+          </div>
         </div>
       </div>
       <div class="reports-container p-2 row row-cols-3 align-content-between">
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background work-background round-edges">
+            <img class="img-work" src="./images/icon-work.svg" />
+          </div>
+          <div class="work-card report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Work</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">32hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 36hrs</p>
+            </div>
+          </div>
         </div>
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background play-background round-edges">
+            <img class="img-play" src="./images/icon-play.svg" />
+          </div>
+          <div class="report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Play</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">10hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 8hrs</p>
+            </div>
+          </div>
         </div>
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background study-background round-edges">
+            <img class="img-study" src="./images/icon-study.svg" />
+          </div>
+          <div class="report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Study</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">4hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 7hrs</p>
+            </div>
+          </div>
         </div>
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background exercise-background round-edges">
+            <img class="img-exercise" src="./images/icon-exercise.svg" />
+          </div>
+          <div class="report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Exercise</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">4hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 5hrs</p>
+            </div>
+          </div>
         </div>
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background social-background round-edges">
+            <img class="img-social" src="./images/icon-social.svg" />
+          </div>
+          <div class="report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Social</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">5hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 10hrs</p>
+            </div>
+          </div>
         </div>
         <div class="single-report col">
-          <div class="img-background round-edges"></div>
-          <div class="report-details round-edges"></div>
+          <div class="img-background self-care-background round-edges">
+            <img class="img-self-care" src="./images/icon-self-care.svg" />
+          </div>
+          <div class="report-details round-edges">
+            <div class="single-report-header">
+              <p class="single-report-header-p">Self Care</p>
+              <img class="report-card-ellipsis" src="./images/icon-ellipsis.svg" />
+            </div>
+            <!-- Change with dummy data variables -->
+            <p class="single-report-hours">2hrs</p>
+            <div class="single-report-timespan-footer">
+              <p class="single-report-timespan-footer-text">Last Week - 2hrs</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
