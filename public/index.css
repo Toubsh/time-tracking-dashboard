@@ -15,7 +15,7 @@ main {
 }
 
 .container-fluid {
-    transform: translateY(50%);
+    transform: translateY(12em);
 }
 
 .round-edges {
